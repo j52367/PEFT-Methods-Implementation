@@ -10,16 +10,15 @@ The goal is to understand how to adapt large pre-trained models (LLMs) to downst
 | **LoRA** (Low-Rank Adaptation) | Freezes pre-trained weights and injects trainable rank decomposition matrices. | ✅ |
 | **Prefix Tuning** | Optimizes a sequence of continuous task-specific vectors (prefixes). | 🚧 |
 | **P-Tuning** | Uses trainable prompt embeddings. | 📅 |
-| **IA3** | Infused Adapter by Inhibiting and Amplifying Inner Activations. | 📅 |
 
 ## 🛠️ Tech Stack
-* **Python** 3.8+
+* **Python** 3.13.5
 * **PyTorch**
 * **Hugging Face Transformers**
 * **Hugging Face PEFT**
 
 ## 📊 Experiments
-(실험 결과 그래프나 표를 여기에 추가할 예정)
+(실험 결과 추가 예정)
 
 ## 🔗 References
 * [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
