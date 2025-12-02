@@ -9,7 +9,8 @@ The goal is to understand how to adapt large pre-trained models (LLMs) to downst
 | :--- | :--- | :---: |
 | **LoRA** (Low-Rank Adaptation) | Freezes pre-trained weights and injects trainable rank decomposition matrices. | △ |
 | **Prefix Tuning** | Optimizes a sequence of continuous task-specific vectors (prefixes). | △ |
-| **P-Tuning** | Uses trainable prompt embeddings. | X |
+| **P-Tuning** | Uses trainable prompt embeddings. | △ |
+| **P-Tuning v2** |  | X |
 | **Prompt-Tuning** |  | X |
 
 
@@ -24,4 +25,6 @@ The goal is to understand how to adapt large pre-trained models (LLMs) to downst
 
 ## References
 * [LoRA: Low-Rank Adaptation of Large Language Models](https://arxiv.org/abs/2106.09685)
+* [Prefix-Tuning: Optimizing Continuous Prompts for Generation](https://arxiv.org/abs/2101.00190)
+* [GPT Understands, Too](https://arxiv.org/abs/2103.10385)
 * [Hugging Face PEFT Documentation](https://huggingface.co/docs/peft/index)
