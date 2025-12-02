@@ -12,6 +12,7 @@ The goal is to understand how to adapt large pre-trained models (LLMs) to downst
 | **P-Tuning** | Uses trainable prompt embeddings. | △ |
 | **P-Tuning v2** |  | X |
 | **Prompt-Tuning** |  | X |
+| **IA3** |  | X |
 
 
 ## Tech Stack
