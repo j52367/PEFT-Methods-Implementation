@@ -16,7 +16,7 @@ The goal is to understand how to adapt large pre-trained models (LLMs) to downst
 
 
 ## Tech Stack
-* **Python** 3.13.5
+* **Python** 3.12.12
 * **PyTorch**
 * **Hugging Face Transformers**
 * **Hugging Face PEFT**
