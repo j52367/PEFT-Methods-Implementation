@@ -7,7 +7,7 @@ The goal is to understand how to adapt large pre-trained models (LLMs) to downst
 ## Implemented Methods
 | Method | Description | Status |
 | :--- | :--- | :---: |
-| **LoRA** (Low-Rank Adaptation) | Freezes pre-trained weights and injects trainable rank decomposition matrices. | △ |
+| **LoRA** (Low-Rank Adaptation) | Freezes pre-trained weights and injects trainable rank decomposition matrices. | O |
 | **Prefix Tuning** | Optimizes a sequence of continuous task-specific vectors (prefixes). | △ |
 | **P-Tuning** | Uses trainable prompt embeddings. | △ |
 | **P-Tuning v2** |  | X |
